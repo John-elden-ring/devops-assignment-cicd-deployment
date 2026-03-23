@@ -4,7 +4,6 @@ async function fetchStudentDetails() {
   const card = document.getElementById("student-card");
   const btn  = document.getElementById("fetchBtn");
 
-  // Show loading state
   btn.disabled = true;
   btn.textContent = "Fetching...";
   card.classList.remove("hidden");

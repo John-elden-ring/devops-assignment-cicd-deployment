@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// GET /student-details
 app.get("/student-details", (req, res) => {
   res.json({
     name: process.env.STUDENT_NAME || "Your Name",
@@ -17,7 +16,6 @@ app.get("/student-details", (req, res) => {
   });
 });
 
-// Health check
 app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
