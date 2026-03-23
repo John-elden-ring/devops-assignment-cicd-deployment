@@ -3,11 +3,11 @@ pipeline {
 
     environment {
         DOCKERHUB_USERNAME = "2023bcs0085adhikp"
-        REGISTER_NUMBER    = "2023BCS0085"
-        ROLL_NUMBER        = "BCS85"
+        REGISTER_NUMBER    = "2023bcs0085"
+        ROLL_NUMBER        = "bcs85"
 
-        FRONTEND_IMAGE     = "${DOCKERHUB_USERNAME}/${REGISTER_NUMBER}_${ROLL_NUMBER}_frontend"
-        BACKEND_IMAGE      = "${DOCKERHUB_USERNAME}/${REGISTER_NUMBER}_${ROLL_NUMBER}_backend"
+        FRONTEND_IMAGE     = "2023bcs0085adhikp/2023bcs0085_bcs85_frontend"
+        BACKEND_IMAGE      = "2023bcs0085adhikp/2023bcs0085_bcs85_backend"
     }
 
     stages {
